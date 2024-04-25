@@ -1,0 +1,18 @@
+<hr>
+
+<h1>New Form</h1>
+<form>
+    <label>Id : </label>
+    <input type="text" name="id" [(ngModel)]="employees.id">
+    <br><br>
+    <label>First Name : </label>
+    <input type="text" name="firstName" [(ngModel)]="employees.firstName">
+    <br><br>
+    <label>Last Name : </label>
+    <input type="text" name="lastName" [(ngModel)]="employees.lastName">
+    <br><br>
+    <label>Email Id : </label>
+    <input type="text" name="emailId" [(ngModel)]="employees.emailId">
+    <br><br>
+    <button (click)="saveEmployee()">Submit</button>
+</form>

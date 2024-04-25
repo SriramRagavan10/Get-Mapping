@@ -1,0 +1,22 @@
+h2, table {
+    text-align: center;
+}
+table {
+    width: 78%;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+th, td {
+    border: 2px solid;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: rgb(193, 210, 224);
+}   
+tr:hover {
+    background-color: antiquewhite;
+}
+h2:hover {
+    background-color: beige;
+}
